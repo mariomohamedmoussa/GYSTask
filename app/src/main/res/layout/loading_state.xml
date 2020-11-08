@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/view1"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight=".25"
+            />
+
+
+
+
+
+        <RelativeLayout
+            android:id="@+id/view2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1.4">
+
+
+            <View
+                android:id="@+id/view3"
+                android:layout_width="120dp"
+                android:layout_height="15dp"
+                android:background="@drawable/drawable_line_with_corners" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@+id/view3"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/drawable_line_with_corners" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view"
+        style="@style/Divider"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:weightSum="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view"
+    >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/view5"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight=".25"/>
+
+
+
+        <RelativeLayout
+            android:id="@+id/view6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1.5">
+
+
+            <View
+                android:id="@+id/view7"
+                android:layout_width="120dp"
+                android:layout_height="15dp"
+                android:background="@drawable/drawable_line_with_corners" />
+
+            <View
+                android:id="@+id/view8"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@+id/view7"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/drawable_line_with_corners" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view9"
+        style="@style/Divider"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout1" />
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:weightSum="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view9"
+    >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/view10"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight=".25"/>
+
+
+
+        <RelativeLayout
+            android:id="@+id/view11"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1.5">
+
+
+            <View
+                android:id="@+id/view12"
+                android:layout_width="120dp"
+                android:layout_height="15dp"
+                android:background="@drawable/drawable_line_with_corners" />
+
+            <View
+                android:id="@+id/view13"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@+id/view12"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/drawable_line_with_corners" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view14"
+        style="@style/Divider"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout2" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:weightSum="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view14"
+    >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/view15"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight=".25"/>
+
+
+
+        <RelativeLayout
+            android:id="@+id/view16"
+            android:layout_width="0dp"
+            android:layout_marginStart="15dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1.5">
+
+
+            <View
+                android:id="@+id/view17"
+                android:layout_width="120dp"
+                android:layout_height="15dp"
+                android:background="@drawable/drawable_line_with_corners" />
+
+            <View
+                android:id="@+id/view18"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@+id/view17"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/drawable_line_with_corners" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view19"
+        style="@style/Divider"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3" />
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:weightSum="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view19"
+    >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/view20"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight=".25" />
+
+
+
+        <RelativeLayout
+            android:id="@+id/view21"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1.5">
+
+
+            <View
+                android:id="@+id/view22"
+                android:layout_width="120dp"
+                android:layout_height="15dp"
+                android:background="@drawable/drawable_line_with_corners" />
+
+            <View
+                android:id="@+id/view23"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@+id/view22"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/drawable_line_with_corners" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view24"
+        style="@style/Divider"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:weightSum="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view24"
+    >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/view25"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight=".25"/>
+
+
+
+        <RelativeLayout
+            android:id="@+id/view26"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1.5">
+
+
+            <View
+                android:id="@+id/view27"
+                android:layout_width="120dp"
+                android:layout_height="15dp"
+                android:background="@drawable/drawable_line_with_corners" />
+
+            <View
+                android:id="@+id/view28"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@+id/view27"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/drawable_line_with_corners" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view29"
+        style="@style/Divider"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5" />
+   <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+       android:layout_marginEnd="10dp"
+       android:layout_marginStart="10dp"
+        android:weightSum="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view29"
+    >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/view30"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight=".25" />
+
+
+
+        <RelativeLayout
+            android:id="@+id/view31"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="15dp"
+
+            android:layout_weight="1.5">
+
+
+            <View
+                android:id="@+id/view32"
+                android:layout_width="120dp"
+                android:layout_height="15dp"
+                android:background="@drawable/drawable_line_with_corners" />
+
+            <View
+                android:id="@+id/view33"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@+id/view32"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/drawable_line_with_corners" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view35"
+        style="@style/Divider"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6" />
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:weightSum="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view35"
+    >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/view36"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight=".25" />
+
+
+
+        <RelativeLayout
+            android:id="@+id/view37"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1.5">
+
+
+            <View
+                android:id="@+id/view38"
+                android:layout_width="120dp"
+                android:layout_height="15dp"
+                android:background="@drawable/drawable_line_with_corners" />
+
+            <View
+                android:id="@+id/view39"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@+id/view38"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/drawable_line_with_corners" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view40"
+        style="@style/Divider"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7" />   <LinearLayout
+        android:id="@+id/linearLayout8"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:weightSum="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view40"
+    >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/view41"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight=".25" />
+
+
+
+        <RelativeLayout
+            android:id="@+id/view42"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1.5">
+
+
+            <View
+                android:id="@+id/view43"
+                android:layout_width="120dp"
+                android:layout_height="15dp"
+                android:background="@drawable/drawable_line_with_corners" />
+
+            <View
+                android:id="@+id/view44"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@+id/view43"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/drawable_line_with_corners" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view45"
+        style="@style/Divider"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout8" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout9"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        android:weightSum="2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/view45"
+    >
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/view46"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight=".25" />
+
+
+
+        <RelativeLayout
+            android:id="@+id/view47"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="15dp"
+            android:layout_weight="1.5">
+
+
+            <View
+                android:id="@+id/view48"
+                android:layout_width="120dp"
+                android:layout_height="15dp"
+                android:background="@drawable/drawable_line_with_corners" />
+
+            <View
+                android:id="@+id/view49"
+                android:layout_width="match_parent"
+                android:layout_height="15dp"
+                android:layout_below="@+id/view48"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/drawable_line_with_corners" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view50"
+        style="@style/Divider"
+        android:layout_marginTop="15dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

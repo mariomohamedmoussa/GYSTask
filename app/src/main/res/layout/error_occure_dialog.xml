@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <ImageView
+            android:id="@+id/ivError"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:src="@mipmap/nointernet"
+
+            app:layout_constraintBottom_toTopOf="@+id/tvSomethingErrorInfo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/tvSomethingErrorInfo"
+            style="@style/Title"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="@string/something_went_wrong"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/tvAnAlignInfo"
+            tools:layout_editor_absoluteX="-9dp" />
+
+        <TextView
+            android:id="@+id/tvAnAlignInfo"
+            style="@style/text"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginBottom="60dp"
+            android:gravity="center_horizontal"
+            android:text="@string/anAlignIsProbably"
+            android:textColor="@color/grey_dark"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/tvRetry" />
+
+
+        <TextView
+            android:id="@+id/tvRetry"
+            style="@style/Title"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/drawable_green_rectangle_with_corners"
+            android:gravity="center"
+            android:text="@string/retry"
+            android:textColor="@color/green"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>>
+</ScrollView>
